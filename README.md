@@ -11,9 +11,6 @@ This project builds a clean, 15-cell diagnostic framework using the **UCI Heart 
 ### 🧪 Visual Analysis Highlights
 *   **Aesthetic Styling:** All visualizations use a high-contrast **Teal & Coral** color profile for clear data reading.
 *   **Correlation Tracking:** Inter-variable mathematical patterns are isolated using an elegant, dense `mako` heat gradient profiles.
-  ### 🧪 Visual Analysis Highlights
-*   **Aesthetic Styling:** All visualizations use a high-contrast **Teal & Coral** color profile for clear data reading.
-*   **Correlation Tracking:** Inter-variable mathematical patterns are isolated using an elegant, dense `mako` heat gradient profiles.
 
 <!-- ADD YOUR VISUALIZATION GRID HERE -->
 <p align="center">
@@ -45,6 +42,13 @@ We evaluated a combination of linear, distance-based, and tree-based ensemble mo
 | **K-Nearest Neighbors (KNN)** | Standard Scaled ($K=5$) | `[Insert Score]%` |
 | **Random Forest Classifier** | Baseline ($N=100$) | `[Insert Score]%` |
 | **Random Forest (Optimized)** | GridSearchCV Tuned | **`[Insert Score]%`** |
+
+<!-- ADD YOUR PERFORMANCE SCOREBOARD HERE -->
+<p align="center">
+  <img src="model_scoreboard.png" alt="Algorithm Comparison Scoreboard Chart" width="70%">
+</p>
+
+> **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance...
 
 > **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance of **`[Insert Score]%`**. More importantly, hyperparameter tuning successfully minimized the **False Negative Rate** in our Diagnostic Confusion Matrix, which is critical for medical classification.
 
