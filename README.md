@@ -11,6 +11,14 @@ This project builds a clean, 15-cell diagnostic framework using the **UCI Heart 
 ### 🧪 Visual Analysis Highlights
 *   **Aesthetic Styling:** All visualizations use a high-contrast **Teal & Coral** color profile for clear data reading.
 *   **Correlation Tracking:** Inter-variable mathematical patterns are isolated using an elegant, dense `mako` heat gradient profiles.
+  ### 🧪 Visual Analysis Highlights
+*   **Aesthetic Styling:** All visualizations use a high-contrast **Teal & Coral** color profile for clear data reading.
+*   **Correlation Tracking:** Inter-variable mathematical patterns are isolated using an elegant, dense `mako` heat gradient profiles.
+
+<!-- ADD YOUR VISUALIZATION GRID HERE -->
+<p align="center">
+  <img src="distribution_grids.png" alt="Teal and Coral Overlapping Feature Distributions" width="80%">
+</p>
 
 ---
 
