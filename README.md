@@ -38,19 +38,16 @@ We evaluated a combination of linear, distance-based, and tree-based ensemble mo
 ### 📈 Model Evaluation Summary
 | Machine Learning Tool | Hyperparameter State | Test Accuracy |
 | :--- | :--- | :--- |
-| **Logistic Regression** | Standard Scaled (Baseline) | `86.96%` |
-| **K-Nearest Neighbors (KNN)** | Standard Scaled ($K=5$) | `86.41%` |
+| **Logistic Regression** | Standard Scaled (Baseline Baseline) | `86.96%` |
 | **Random Forest Classifier** | Baseline ($N=100$) | `86.96%` |
-| **Random Forest (Optimized)** | GridSearchCV Tuned | **`[Insert Score]%`** |
+| **K-Nearest Neighbors (KNN)** | Standard Scaled ($K=5$) | `86.41%` |
 
 <!-- ADD YOUR PERFORMANCE SCOREBOARD HERE -->
 <p align="center">
   <img src="model_scoreboard.png" alt="Algorithm Comparison Scoreboard Chart" width="60%">
 </p>
 
-> **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance...
-
-> **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance of **`86.96%`**. More importantly, hyperparameter tuning successfully minimized the **False Negative Rate** in our Diagnostic Confusion Matrix, which is critical for medical classification.
+> **Key Takeaway:** Interestingly, our baseline **Logistic Regression** and **Random Forest Classifier** achieved the exact same test accuracy score of **`86.96%`**, both outperforming the distance-based KNN approach.
 
 ---
 
