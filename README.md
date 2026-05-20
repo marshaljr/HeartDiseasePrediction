@@ -6,7 +6,7 @@ A structured, end-to-end data science pipeline built to clean medical data, expl
 
 ## 📊 Project Overview & Visual Insights
 
-This project builds a clean, 15-cell diagnostic framework using the **UCI Heart Disease Dataset**. It features automated feature separation (categorical vs. continuous variables), overlapping data distribution matrices, and a side-by-side performance evaluation across different algorithmic baselines.
+This project builds a clean, 14-cell diagnostic framework using the **UCI Heart Disease Dataset**. It features automated feature separation (categorical vs. continuous variables), overlapping data distribution matrices, and a side-by-side performance evaluation across different algorithmic baselines.
 
 ### 🧪 Visual Analysis Highlights
 *   **Aesthetic Styling:** All visualizations use a high-contrast **Teal & Coral** color profile for clear data reading.
