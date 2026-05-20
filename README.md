@@ -14,7 +14,7 @@ This project builds a clean, 15-cell diagnostic framework using the **UCI Heart 
 
 <!-- ADD YOUR VISUALIZATION GRID HERE -->
 <p align="center">
-  <img src="distribution_grids.png" alt="Teal and Coral Overlapping Feature Distributions" width="80%">
+  <img src="distribution_grids.png" alt="Teal and Coral Overlapping Feature Distributions" width="60%">
 </p>
 
 ---
@@ -38,19 +38,19 @@ We evaluated a combination of linear, distance-based, and tree-based ensemble mo
 ### 📈 Model Evaluation Summary
 | Machine Learning Tool | Hyperparameter State | Test Accuracy |
 | :--- | :--- | :--- |
-| **Logistic Regression** | Standard Scaled (Baseline) | `[Insert Score]%` |
-| **K-Nearest Neighbors (KNN)** | Standard Scaled ($K=5$) | `[Insert Score]%` |
-| **Random Forest Classifier** | Baseline ($N=100$) | `[Insert Score]%` |
+| **Logistic Regression** | Standard Scaled (Baseline) | `86.96%` |
+| **K-Nearest Neighbors (KNN)** | Standard Scaled ($K=5$) | `86.41%` |
+| **Random Forest Classifier** | Baseline ($N=100$) | `86.96%` |
 | **Random Forest (Optimized)** | GridSearchCV Tuned | **`[Insert Score]%`** |
 
 <!-- ADD YOUR PERFORMANCE SCOREBOARD HERE -->
 <p align="center">
-  <img src="model_scoreboard.png" alt="Algorithm Comparison Scoreboard Chart" width="70%">
+  <img src="model_scoreboard.png" alt="Algorithm Comparison Scoreboard Chart" width="60%">
 </p>
 
 > **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance...
 
-> **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance of **`[Insert Score]%`**. More importantly, hyperparameter tuning successfully minimized the **False Negative Rate** in our Diagnostic Confusion Matrix, which is critical for medical classification.
+> **Key Takeaway:** The tuned Random Forest model achieved our top accuracy performance of **`86.96%`**. More importantly, hyperparameter tuning successfully minimized the **False Negative Rate** in our Diagnostic Confusion Matrix, which is critical for medical classification.
 
 ---
 
